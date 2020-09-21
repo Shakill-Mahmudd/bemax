@@ -1,0 +1,163 @@
+/* ====================================================================
+             extra small device responsive start
+======================================================================= */
+/* extra Small devices (landscape phones, 320px and up) */
+@media (min-width: 320px) and (max-width: 575px) {
+    .slicknav_menu {
+        display: block;
+    }
+    .main-menu{
+        display: none;
+    }
+    .banner_overllay {
+        padding: 0px 0px 0px 0px;
+    }
+    h1 {   
+        font-size: 40px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    .cd-headline.clip b {
+     font-size: 17px;
+ }
+    h2 span {
+     font-size: 23px;
+ }
+ .mmfontsize{
+     font-size: 17px;
+ }
+ .cd-headline.clip .cd-words-wrapper::after {
+     top: 15px;
+     height: 50%;
+ }
+ .cd-intro {
+     margin: 2em auto;
+ }
+ .banner_content p {
+   
+     padding-bottom: 10px;
+ }
+ .banner_icon {
+     display: flex;
+     justify-content: space-around;
+ }
+ .banner_part .cd-intro {
+     text-align: center;
+ }
+ .banner_mobile_img {
+     text-align: center;
+     ;
+ }
+  .banner_mobile_img img{
+      width: auto;
+  }
+  .gap_part {
+      padding: 50px 0px;
+  }
+  .feature_part {
+      padding: 40px 0px 50px;
+  }
+  .section_title {
+      padding-bottom: 50px;
+  }
+  .md_mb{
+      margin-bottom: 40px;
+  }
+  .md_mb10{
+      margin-bottom: 10px;
+  }
+  .feature_content {
+      display: block;
+      text-align: center;
+  }
+  .feature_icon i {
+     
+      margin-right: 0;
+      margin-top: 0;
+      margin-bottom: 10px;
+  }
+  .feature_item h4 {
+      padding-bottom: 12px;
+  }
+  .mobile_part {
+      padding-top: 30px;
+  }
+  .section_para {
+      padding-bottom: 10px;
+  }
+  .mobile_icon i {
+      margin-right: 0;
+      font-size: 20px;
+      margin-top: 0;
+      margin-bottom: 10px;
+  }
+  .mobile_item {
+      display: block;
+      text-align: center;
+  }
+  .mobile_text p {
+      padding-bottom: 40px;
+  }
+  .mpmargin_40 {
+      margin-top: 20px;
+  }
+  .isotop_part {
+      padding-top: 20px;
+  }
+ .isotop_part .section_title p {
+     font-size: 11px;
+     padding-top: 40px;
+ }
+ .isotop_btn {
+     padding: 0px 6px;
+     margin: 0px 0px;
+     font-size: 15px;
+     margin-bottom: 30px;
+ }
+ .team_part {
+     padding: 40px 0px;
+ }
+ .team_part .section_title p {
+     font-size: 11px;
+     padding-top: 40px;
+ }
+ .contact_icon2 {
+     display: flex;
+     justify-content: space-around;
+     margin-top: 20px;
+ }
+
+ .address_part {
+     margin-bottom: 20px;
+ }
+ #scrollUp i {
+     height: 0;
+     width: 0;
+     background: transparent;
+ }
+}
+
+/* ====================================================================
+              small device responsive start
+======================================================================= */
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {}
+
+/* ====================================================================
+                Medium device responsive start
+  ======================================================================= */
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {}
+
+/* ====================================================================
+                Large device responsive start
+  ======================================================================= */
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+/* ====================================================================
+                Extra large device responsive start
+  ======================================================================= */
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
